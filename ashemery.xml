@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+	<title>Dr. Ali Hadi</title>
+	<link>http://www.ashemery.com/index.htm</link>
+	<description>Dr. Ali Hadi personel website </description>
+	<language>en-us</language>
+	<atom:link href="http://www.ashemery.com/ashemery.xml" rel="self" type="application/rss+xml" />
+	
+	<image>
+		<title>Dr. Ali Al-Shemery</title>
+		<url>http://www.ashemery.com/images/infosec.jpg</url>
+		<link>http://www.ashemery.com/index.htm</link>
+		<width>90</width>
+		<height>36</height>
+	</image>
+
+	<item>
+		<guid>http://www.ashemery.com/publications.html</guid>
+		<title>Chapter in book (20-12-2011)</title>
+		<description>The Simulation in Computer Network Design and Modeling book will be released soon.</description>
+		<link>http://www.ashemery.com/news.html</link>
+	</item>
+	<item>
+		<guid>http://www.ashemery.com/classes.html</guid>
+		<title>Classes Page Updated (1-12-2011)</title>
+		<description>The classes page has been updated to include next semester (2011/2012) courses.</description>
+		<link>http://www.ashemery.com/classes.html</link>
+	</item>
+	
+</channel>
+</rss>
