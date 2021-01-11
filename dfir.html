@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Dr. Ali Hadi personel website" />
+	<meta name="keywords" content="DFIR,Digital Forensics,Memory Forensics,Malware,Malware Analysis,Network Security,Computer Security,Information Security,Python,Penetration Testing,Operating Systems" />
+	<meta name="author" content="B!n@ry" />
+	<link rel="stylesheet" type="text/css" href="files/ashemery.css" title="Basic Noise" media="all" />
+	<title>Ali Hadi, Ph.D.</title>
+</head>
+
+<body>
+<div id="container980">
+	<div id="header">
+		<h1><a href="index.html">Ali Hadi</a></h1>
+		<h2><i>"Education never ends, Watson. It is a series of lessons, with the greatest for the last.</i>" - Sherlock Holmes</h2>
+	</div>
+	<div id="menu"> 
+		<ul>     
+			<li><a href="index.html">Home</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="research.html">Research</a></li>
+			<li><a href="publications.html">Publications</a></li>			
+			<li><a class="current" href="dfir.html">Datasets</a></li>			
+			<li><a href="bio.html">Bio</a></li>
+			<li><a href="misc.html">Misc</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div id="feature">
+
+	</div>
+
+	<div id="main">
+		<div id="content">
+
+<h3>Digital Forensic Challenge Images (Datasets)</h3>
+<p>This page contains all the digital forensic challenges (datasets) I prepare either for a training course I teach, a DFIR challenge done @Security4Arabs, testing an application or written code, or just for fun! The current challenges are: <a href="#Challenge1">Challenge #1</a>, <a href="#Challenge2">Challenge #2</a>, <a href="#Challenge3">Challenge #3</a>, <a href="#Challenge4">Challenge #4</a> and different <a href="#LinuxForensics">Linux Forensic</a> Cases. More will be added soon, so keep checking the site for updates.</p>
+
+<p><b>Note:</b> if you have any comments or notes, please don't hesitate to contact me, I will do my best to get back to you ASAP. Also, if you use any of my work for your training, presentation, etc, I would appreciate if you inform me. Don't worry, I won't charge you anything, and use them for free as you like. I just want to be informed for referencing purposes only.</p><hr/>
+
+<ul>
+<li><h3><a name="Challenge1">Challenge #1</a> - Web Server Case</li></h3>
+<p>A company’s web server has been breached through their website. 
+Our team arrived just in time to take a forensic image of the running system and its memory for further analysis.
+All of the case files can be found <a href="https://archive.org/details/dfir-case1" target="_blank">here</a>. Old upload could be found below (I'm using them as an alternative now):
+<ol>
+	<li>System Image: <a href="https://mega.co.nz/#!0FY2jC6C!IrWGIEicYrlodQnfttXLhbCFD551plWigzd097ue25s" target="_blank">here</a></li>
+	<li>System Memory: <a href="https://mega.co.nz/#!1UpjkTab!RP_QeooLaxA7bixLxkHLIqhWKfQ9G_0M58NSUchRn68" target="_blank">here</a></li>
+	<li>Hashes: <a href="https://mega.co.nz/#!FFZHBZxI!7vGrnQzN4ZK_XwcKBu8mQKzIKcdE7tM3rQ_zTqJQ6-U" target="_blank">here</a></li>
+	<li>Passwords = <a href="https://mega.nz/#!4RwDGDDC!unfGTnhxiMYIe7O0t9OkeIswLPMr09zn5pKhbFE8Bqw" target="_blank">here</a></li>
+	<li>Other download URLs from (Archive.org) could be found here: <a href="https://archive.org/details/dfir-case1" target="_blank">here</a></li>
+</ol>
+
+To successfully solve this challenge, a report with answers to the tasks below is required:
+<ol>
+	<li>What type of attacks has been performed on the box?</li>
+	<li>How many users has the attacker(s) added to the box, and how were they added?</li>
+	<li>What leftovers (files, tools, info, etc) did the attacker(s) leave behind? (assume our team arrived in time and the attacker(s) couldn’t clean and cover their tracks)</li>
+	<li>What software has been installed on the box, and were they installed by the attacker(s) or not?</li>
+	<li>Using memory forensics, can you identify the type of shellcode used?</li>
+	<li>What is the timeline analysis for all events that happened on the box?</li>
+	<li>What is your hypothesis for the case, and what is your approach in solving it?</li>
+	<li>Is there anything else you would like to add?</li>
+</ol>
+
+<b>Bonus Question:</b> what are the directories and files, that have been added by the attacker(s)? List all with proof.<br>
+<b>Important Note:</b> do not use commercial tools for your own learning benefit.<br><br>
+</p>
+<p>End of Case.</p><hr>
+
+<li><h3><a name="Challenge2">Challenge #2</a> - User Policy Violation Case</li></h3>
+<p>This is another digital forensics image that was prepared to cover a full Windows Forensics course.<br>
+<ol>
+	<li>System Image: <a href="https://mega.nz/#!JNAAWYxJ!ux_F99TP4Y0rlE96gAsAWtKeSy65LCwWISsNghY54TI" target="_blank">here</a></li>
+	<li>Hashes: <a href="https://mega.nz/#!hchjxY6I!v-rJI79kVoquqsvbhQ4zPUE-fFllarktoKWOgD5K8ho" target="_blank">here</a></li>
+	<li>Password = <a href="https://mega.nz/#!tUxxCYCB!_0jbSe1wrTslP0sWiMhJLHbL6Lhakels6KTGZP7eiEU" target="_blank">here</a></li>
+	<li>Other download URLs from (Archive.org) could be found here: <a href="https://archive.org/details/4orensics.case2.7z" target="_blank">here</a></li>
+</ol>
+
+You can use the image to learn the following:
+<ol>
+	<li>File Carving, Custom Carving, and Keyword Searching</li>
+	<li>File System Forensics - NTFS</li>
+	<li>Deep Windows Registry Forensics: System and User Hives</li>
+	<ul> 
+		<li>SYSTEM</li>
+		<li>SOFTWARE</li>
+		<li>SAM</li>
+		<li>NTUSER.DAT</li>
+		<li>USRCLASS.DAT</li>
+	</ul>
+	<li>Other Windows Files: LNK, Jump Lists, Libraries, etc</li>
+	<li>Application Compatibility Cache (ShimCache)</li>
+	<li>Analyzing Windows Search (Search Charm)</li>
+	<li>Analyzing Thumb Caches</li>		
+	<li>Analyzing Prefetch Files</li>
+	<li>Analyzing Recycle Bin(s)</li>		
+	<li>USB Forensics</li>
+	<li>Events Analysis</li>	
+	<li>Email Forensics: Web and Outlook</li>
+	<li>Browser Forensics: Internet Explorer and Google Chrome</li>
+	<li>Skype Forensics</li>
+</ol>
+
+<p>This image covers most if not all of the recent system artifacts that you might encounter.
+Let me know if you need any help or if you are an instructor and want the answers to each part of the case.
+I will only send the answers to verified instructors.</p>
+
+
+<p>Due to lots of requests, I have decided to compile a manual or a book for the second image with Q&As to help you go through 
+the challenge and solve every part of it. URLs and further explanations will be provided very soon.
+<b>Stay tuned my friends and happy hunting ;)</b></p>
+
+<p>End of Case.</p><hr>
+
+
+<li><h3><a name="Challenge3">Challenge #3</a> - Mystery Hacked System</li></h3>
+<p>This is another digital forensics image that was prepared to for a Windows and File System Forensics course. This is a little of a mystery, so I won't be giving out too much clues about what you can learn in this case, but I assure you, you can learn a lot ;)<br>
+<ol>
+	<li>System Image: <a href="https://mega.nz/#!VEAXzYST!XQVZokcatOOciD6uU_cCVCmgUt7px3y6ljgB93kq4fk" target="_blank">here</a></li>
+	<li>Hashes: <a href="https://mega.nz/#!8BBDWBTR!H-g5OvBwtYIrzh0ldhwaGIaEXtUc98JwSnNI6GfP0Ic" target="_blank">here</a></li>
+	<li>Password = <a href="https://mega.nz/#!cIpCgbxB!-hQeqYs3PP8FyldO20NxIUTokPV7TVGFIQKvLc7yAeQ" target="_blank">here</a></li>
+	<li>Other download URLs from (Archive.org) could be found here: <a href="https://archive.org/details/windows8.1challenge3.001.7z" target="_blank">here</a></li>
+</ol>
+
+<p> One day an IT dept. guy/gal came to work to find the message below written in a file on his/her system!
+He/Her immediately reported that to you. Now you must:
+<img border="0" src="images/catchme.png" class="center" />
+<li>How was this system hacked? (What is your hypothesis)</li>
+<li>What evidence did you find that proves your hypothesis?</li> 
+<li>How did you approach and solve the case? (write a report)</li>
+<li>Anything you would like to add?</li></p>
+
+<p>End of Case.</p><hr>
+
+<li><h3><a name="Challenge4">Challenge #4</a> - Launching Attacks from Alternate Data Streams</li></h3>
+This is another digital forensics image that was prepared for to test the following:
+<ol>
+	<li>Hidding EXEs in ADS</li>
+	<li>Running Malicious EXEs from ADS</li>
+	<li>Checking if Windows Defender (or other AVs), truly scan ADS</li>
+	<li>Hiding Malicious EXEs in Stealthy ADS</li>
+	<li>Showing How all of the above methods could be detected</li>
+</ol>
+
+File are below:
+<ol>
+	<li>Forensic Image: <a href="http://bit.ly/2HYrMZS" target="_blank">here</a></li>
+	<li>Hashes: <a href="http://bit.ly/2HYrMZS" target="_blank">here</a></li>
+	<li>File List: <a href="http://bit.ly/2HYrMZS" target="_blank">here</a></li>
+</ol>
+<p>End of Case.</p><hr>
+
+
+<li><h3><a name="LinuxForensics">Linux Forensic Cases</a></li></h3>
+These are four different cases to cover Linux forensic investigations and a brief could be found below:
+<ol>
+        <li>Case1: Compromised Web Server</li>
+        <li>Case2: Compromised Hadoop (HDFS) Cluster</li>
+        <li>Case3: Attacker's Kali Linux System</li>
+        <li>Case4: Investigating/Hunting Hidden Processes</li>
+</ol>
+
+All case files could be found <a href="https://github.com/ashemery/LinuxForensics" target="_blank">here</a></li>
+</ol>
+<p>End of Summary.</p><hr>
+
+</ul>
+
+		</div>
+	</div>
+
+
+	<div id="credits">
+		<p>Copyright &copy; 2011, Ali Hadi | Design by <a href="http://andreasviklund.com/">Andreas Viklund</a> | <a href="sitemap.html">Site Map</a> | <a href="ashemery.xml">RSS Feeds</a>.</p>
+	</div>
+	
+	<div>
+		<a href="http://feed2.w3.org/check.cgi?url="><img src="images/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" class="center" /></a>
+		<a href="http://validator.w3.org/check?uri=referer"><img src="images/valid-xhtml10.png" alt="Valid XHTML 1.0 Strict" class="center" /></a>
+		<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="images/vcss.gif" alt="Valid CSS!" class="center" /></a>		
+		<a href="http://www.getfirefox.net"><img border="0" src="images/110x32_get_button.gif" class="center" /></a>
+	</div>
+</div>
+</body>
+</html>
