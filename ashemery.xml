@@ -4,12 +4,12 @@
 <channel>
 	<title>Dr. Ali Hadi</title>
 	<link>https://www.ashemery.com/index.htm</link>
-	<description>Dr. Ali Hadi personel website </description>
+	<description>Dr. Ali Hadi's Personel Website </description>
 	<language>en-us</language>
 	<atom:link href="https://www.ashemery.com/ashemery.xml" rel="self" type="application/rss+xml" />
 	
 	<image>
-		<title>Dr. Ali Al-Shemery</title>
+		<title>Dr. Ali Hadi</title>
 		<url>https://www.ashemery.com/images/infosec.jpg</url>
 		<link>https://www.ashemery.com/index.htm</link>
 		<width>90</width>
