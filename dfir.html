@@ -39,7 +39,7 @@
 <p>This page contains all the digital forensic challenges (datasets) I prepare either for a training course I teach, a DFIR challenge done @Security4Arabs, 
 	testing an application or written code, or just for fun! The current challenges are: <a href="#Challenge1">Challenge #1</a>, 
 	<a href="#Challenge2">Challenge #2</a>, <a href="#Challenge3">Challenge #3</a>, <a href="#Challenge4">Challenge #4</a>, 
-	<a href="#Challenge5">Challenge #5</a>, <a href="#Challenge6">Challenge #6</a>, <a href="#Challenge7">Challenge #7</a>, <a href="#Challenge8">Challenge #8</a>, and different <a href="#LinuxForensics">Linux Forensic</a> Cases. 
+	<a href="#Challenge5">Challenge #5</a>, <a href="#Challenge6">Challenge #6</a>, <a href="#Challenge7">Challenge #7</a>, <a href="#Challenge8">Challenge #8</a>, <a href="#Challenge9">Challenge #9</a>, and different <a href="#LinuxForensics">Linux Forensic</a> Cases. 
 	More will be added soon, so keep checking the site for updates.</p>
 
 <p><b>Note:</b> if you have any comments or notes, please don't hesitate to contact me, I will do my best to get back to you ASAP. 
@@ -215,6 +215,17 @@ To successfully solve this challenge, a report with answers to the tasks below i
 	<li>E01 for the drive could be found: <a href="https://archive.org/details/ntfs-hidden-files" target="_blank">here</a></li>
 	<li>There are 5 hidden things for you to find!</li>
 	<li>Explain how these files were hidden</li>
+	<li>For more detailed instructions, please check this case under cases at <a href="https://academy.cyber5w.com/collections/case-studies" target="_blank">here</a></li>
+</ol>
+<p>End of Case.</p><hr>
+
+<li><h3><a name="Challenge9">Challenge #9</a> - Encrypt Them All Case</li></h3>
+<p>In this case you are required to decrypt all the data and files that have been encrypted using different crypto methods.</p>
+<ol>
+	<li>E01 for the drive could be found: <a href="https://archive.org/details/anti-forensics-case-2" target="_blank">here</a></li>
+	<li>#1: Lost in Space: <p>We noticed that the whole communication started with a README file within the users documents directory. Unfortunately, this file seems to be encrypted with AES and we do not have the password to decrypt it. You would either need to search the cache for the communication or try to recover the file before it was encrypted. It seems this file leads to the solution of our next requirement.</p></li>
+	<li>#2: Do Not Be Deceived!: <p>It seems Jane has been using a volume with full disk encryption (Bitlocker). It has been applied to a volume named R2D2. You are required to decrypt this volume and find what was hidden within it.</p></li>
+    <li>#3: "Your Focus Determines Your Reality.": <p>One of the messages sent to the unknown part seemed to be using asymmetric encryption with a Public/Private key. Since we were able to acquire an image of Jane’s system, you should be able to extract these keys and use them to decrypt the message. The message which has been shared with our unknown third party, is within the keys file within the user’s download directory. You need to decrypt this file in order to get the secret message. Do you know what this was used for?</p></li>
 	<li>For more detailed instructions, please check this case under cases at <a href="https://academy.cyber5w.com/collections/case-studies" target="_blank">here</a></li>
 </ol>
 <p>End of Case.</p><hr>
