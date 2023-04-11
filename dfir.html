@@ -39,7 +39,7 @@
 <p>This page contains all the digital forensic challenges (datasets) I prepare either for a training course I teach, a DFIR challenge done @Security4Arabs, 
 	testing an application or written code, or just for fun! The current challenges are: <a href="#Challenge1">Challenge #1</a>, 
 	<a href="#Challenge2">Challenge #2</a>, <a href="#Challenge3">Challenge #3</a>, <a href="#Challenge4">Challenge #4</a>, 
-	<a href="#Challenge5">Challenge #5</a>, <a href="#Challenge6">Challenge #6</a>, <a href="#Challenge7">Challenge #7</a>, <a href="#Challenge8">Challenge #8</a>, <a href="#Challenge9">Challenge #9</a>, and different <a href="#LinuxForensics">Linux Forensic</a> Cases. 
+	<a href="#Challenge5">Challenge #5</a>, <a href="#Challenge6">Challenge #6</a>, <a href="#Challenge7">Challenge #7</a>, <a href="#Challenge8">Challenge #8</a>, <a href="#Challenge9">Challenge #9</a>, <a href="#Challenge10">Challenge #10</a>, and different <a href="#LinuxForensics">Linux Forensic</a> Cases. 
 	More will be added soon, so keep checking the site for updates.</p>
 
 <p><b>Note:</b> if you have any comments or notes, please don't hesitate to contact me, I will do my best to get back to you ASAP. 
@@ -226,6 +226,25 @@ To successfully solve this challenge, a report with answers to the tasks below i
 	<li>#1: Lost in Space: <p>We noticed that the whole communication started with a README file within the users documents directory. Unfortunately, this file seems to be encrypted with AES and we do not have the password to decrypt it. You would either need to search the cache for the communication or try to recover the file before it was encrypted. It seems this file leads to the solution of our next requirement.</p></li>
 	<li>#2: Do Not Be Deceived!: <p>It seems Jane has been using a volume with full disk encryption (Bitlocker). It has been applied to a volume named R2D2. You are required to decrypt this volume and find what was hidden within it.</p></li>
     <li>#3: "Your Focus Determines Your Reality.": <p>One of the messages sent to the unknown part seemed to be using asymmetric encryption with a Public/Private key. Since we were able to acquire an image of Jane’s system, you should be able to extract these keys and use them to decrypt the message. The message which has been shared with our unknown third party, is within the keys file within the user’s download directory. You need to decrypt this file in order to get the secret message. Do you know what this was used for?</p></li>
+	<li>For more detailed instructions, please check this case under cases at <a href="https://academy.cyber5w.com/collections/case-studies" target="_blank">here</a></li>
+</ol>
+<p>End of Case.</p><hr>
+
+<li><h3><a name="Challenge10">Challenge #10</a> - Meeting Location Case</li></h3>
+<p>Our suspect Max, seems to be part of a foreign intelligence group and our intelligence team has been tracking him for months now. It seems Max has agreed to meet with an unknown party at some location. After Max left his apartment, we were able to acquire an image of his system. Unfortunately, when we did our investigation, we did not find anything. We are sure that Max has no other system and this is the only system he uses. We need your help with this investigation. The faster you are able to retrieve the info, the quicker we will be able to stop their next operations.</p>
+<ol>
+	<li>E01 for the drive could be found: <a href="https://archive.org/details/anti-forensics-case-4" target="_blank">here</a></li>
+	<li>Deliverable #1: Where is the Evidence?<p>You need to find answers with explanations to the following:
+        <ol>What is Max using to hide his activity?</ol>
+        <ol>Find and restore the methods/tools/techniques/etc that he is using. Note: This might require data recovery/carving</ol></p>
+    </li>
+	<li>Deliverable #2: Where are they Meeting?<p>After you have found the methods that Max has been using to hide his tracks, you are required to:
+        <ol>Find out what Max was searching for based on analyzing the browser history.</ol>
+        <ol>We believe that Max received the information about the meeting location in an encrypted file. Search for that file and after decrypting the file (if needed), determine the meeting location.</ol>
+        <ol>What was the name of the file that has the meeting location?</ol>
+        <ol>From where did Max get the meeting location (URL, chat, email, etc)?</ol></p>
+    </li>
+	<li>Deliverable #3: Reflection<p>Reflect on what you learned from this case.</p></li>
 	<li>For more detailed instructions, please check this case under cases at <a href="https://academy.cyber5w.com/collections/case-studies" target="_blank">here</a></li>
 </ol>
 <p>End of Case.</p><hr>
